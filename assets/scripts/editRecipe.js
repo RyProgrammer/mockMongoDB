@@ -76,6 +76,7 @@ async function deleteRecipe() {
     const recipes = [];
     var dataBank;
 
+    // Reference: Lab 5
     async function fetchRecipes() {
         return new Promise((resolve, reject) => {      
             fetch("../assets/data.json")
